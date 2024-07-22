@@ -1,0 +1,1 @@
+Psyduck Multicolor by Entroisdimensions_figurine on Thingiverse: https://www.thingiverse.com/thing:6635103
