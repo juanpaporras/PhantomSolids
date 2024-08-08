@@ -9,40 +9,63 @@
   .top-nav-row div{
     display: inline-block;
   }
-  
+
   .brand-container{
-    color: $accent-color;
-    margin-left: 5%;
+    margin-left: 20%;
+    margin-right: 0%;
     text-align: left;
+    align-items: center;
     padding: 0.8em;
-    width: 25%;
+    width: 260px;
   }
 
-  .brand-container i,h1{
-    display: inline-block;
+  .image-container{
+    width: 100%;
+  }
+
+  .image-container img {
+    width: 234px;
+    height: 100px;
+    object-fit: contain;
   }
   
-  .menu-option{
-    width: 60%;
-    color: $black-color;
-    text-align: center;
-    margin: 1.7em 0.2em 0 0;
-  }
-  
-  .menu-option i,h2{
-    display: inline-block;
+  .menu-options{
     margin-left: 5%;
+    margin-right: 0%;
+    text-align: left;
+    align-items: center;
+    padding: 0.8em;
+    width: 40%;
+
+
+    white-space: nowrap;
+    overflow: hidden;
+    color: $black-color;
+  }
+
+  .options{
+    padding: 27px 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .options h2{
+    display: inline-block;
+    margin: 1%;
   }
   
-  .menu-option a{
+  .options a{
     text-decoration: none;
     color: $black-color;
   }
-
     
   .user-icon{
     margin-right: 0.4em;
     padding: 0.2em;
     font-size: $icon-font;
   }
+
+
+
+
  
