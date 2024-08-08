@@ -1,0 +1,48 @@
+@import  '../style/variables';
+
+.header{
+    max-width: 100%;
+    box-shadow: 5px 5px 20px $white-color;
+    background: $white-color;
+  }
+  
+  .top-nav-row div{
+    display: inline-block;
+  }
+  
+  .brand-container{
+    color: $accent-color;
+    margin-left: 5%;
+    text-align: left;
+    padding: 0.8em;
+    width: 25%;
+  }
+
+  .brand-container i,h1{
+    display: inline-block;
+  }
+  
+  .menu-option{
+    width: 60%;
+    color: $black-color;
+    text-align: center;
+    margin: 1.7em 0.2em 0 0;
+  }
+  
+  .menu-option i,h2{
+    display: inline-block;
+    margin-left: 5%;
+  }
+  
+  .menu-option a{
+    text-decoration: none;
+    color: $black-color;
+  }
+
+    
+  .user-icon{
+    margin-right: 0.4em;
+    padding: 0.2em;
+    font-size: $icon-font;
+  }
+ 
